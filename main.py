@@ -1,7 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from typing import Optional
 from pydantic import BaseModel
 from datetime import datetime
+
 
 # 1.1
 app = FastAPI(
